@@ -17,6 +17,9 @@ gem 'rake'
 
 gem 'shotgun'
 
+gem 'redis', '2.1.1'
+gem 'hiredis'
+
 group :test do
   gem 'faker'
   gem 'rspec'

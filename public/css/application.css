@@ -75,3 +75,34 @@ body {
   font-weight: bold;
 }
 
+
+
+/*******tic-tac-toe******/
+#main_container {
+  margin: 10px auto;
+  width: 700px;
+}
+
+table {
+  margin: 0px auto;
+}
+
+.box_cell {
+  background-color: #FFFFCC;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.hover {
+  background-color: #FEFCFF;
+}
+
+.red {
+  background-color: #F52887;
+}
+
+.blue {
+  background-color: #16EAF5;
+}
+/*******tic-tac-toe END******/
