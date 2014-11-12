@@ -1,0 +1,45 @@
+.container {
+  margin: 20px auto;
+  width: 700px;
+  padding: 0px 0px 0px 0px;
+}
+
+th {
+  text-align: left;
+}
+
+#logout {
+ display: inline;
+}
+
+body {
+  background-color: yellow;
+}
+
+.left_stuff{
+  float: left;
+}
+
+.right_stuff{
+  float: right;
+  padding-top: 15px;
+}
+
+
+
+.wins {
+  float: left;
+  border-right: 5px solid yellow;
+  width: 350px;
+  padding: 0px 0px 0px 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.total {
+  float: left;
+  width: 350px;
+  padding: 0px 0px 0px 10px;
+  text-align: center;
+  background-color: white;
+}
