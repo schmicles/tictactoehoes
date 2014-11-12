@@ -24,6 +24,8 @@ body {
 .wins {
   float: left;
   border-right: 5px solid yellow;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 350px;
   text-align: center;
   background-color: white;
@@ -35,6 +37,8 @@ body {
 
 .total {
   float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 350px;
   text-align: center;
   background-color: white;
@@ -60,7 +64,7 @@ body {
 .button span {
   display: inline-block;
   width: 700px;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   text-align: center;
 }

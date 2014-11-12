@@ -28,7 +28,7 @@
       </div>
 
       <div class="right_stuff">
-        <a href="/users"><button type="button" class="btn btn-default navbar-btn">homie</button></a>
+        <a href="/players/<%= Player.find(session[:player_id]).username %>"><button type="button" class="btn btn-default navbar-btn">homie</button></a>
 
         <form id="logout" action = "/logout" method="post">
           <input name="_method" value="delete" type="hidden">
