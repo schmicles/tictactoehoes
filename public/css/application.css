@@ -1,19 +1,15 @@
-.container {
-  margin: 20px auto;
-  width: 700px;
-  padding: 0px 0px 0px 0px;
-}
-
 th {
   text-align: left;
 }
 
-#logout {
- display: inline;
-}
-
 body {
   background-color: yellow;
+}
+
+.container {
+  margin: 20px auto;
+  width: 700px;
+  padding: 0px 0px 0px 0px;
 }
 
 .left_stuff{
@@ -25,21 +21,53 @@ body {
   padding-top: 15px;
 }
 
-
-
 .wins {
   float: left;
   border-right: 5px solid yellow;
   width: 350px;
-  padding: 0px 0px 0px 10px;
   text-align: center;
   background-color: white;
+}
+
+.wins h1 {
+  text-align: center;
 }
 
 .total {
   float: left;
   width: 350px;
-  padding: 0px 0px 0px 10px;
   text-align: center;
   background-color: white;
 }
+
+.total h1 {
+  text-align: center;
+}
+
+#logout {
+ display: inline;
+}
+
+
+.button {
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.button span {
+  display: inline-block;
+  width: 700px;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+.button:hover span {
+  background-color: cyan;
+  color: white;
+  font-weight: bold;
+}
+

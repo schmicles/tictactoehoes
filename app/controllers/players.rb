@@ -1,6 +1,6 @@
 # Players Landing page after log in
-get '/players/:id' do
-  @player = Player.find_by(id: params[:id])
+get '/players/:username' do
+  @players = Player.find_by(id: session[:player_id])
 
   erb :'players/show'
 end
@@ -8,8 +8,8 @@ end
 # Logging in . . . . .
 post '/login' do
   @player = Player.find_or_create_by(username: params[:username])
-  session[:player_id] = player.id
-  redirect "/players/:id"
+  session[:player_id] = @player.id
+  redirect "/players/#{@player.username}"
 end
 
 delete '/logout' do
