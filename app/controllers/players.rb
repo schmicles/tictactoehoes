@@ -1,6 +1,6 @@
-# Players Landing page after log in
+# Player's Landing page after log in
 get '/players/:username' do
-  @players = Player.find_by(id: session[:player_id])
+  @player = Player.find_by(id: session[:player_id])
 
   erb :'players/show'
 end

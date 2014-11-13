@@ -10,6 +10,9 @@
   </div>
 </div>
 
-<a href="/games" class="button">
-  <span>start new game</span>
-</a>
+<form action="/games" method="post" class="button">
+  <input type="hidden" name="player_1_id" value="<%= @player.id %>">
+  <button value="submit">
+    <span>start new game</span>
+  </button>
+</form>
