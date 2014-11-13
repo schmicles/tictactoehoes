@@ -6,13 +6,14 @@
 
   <div class="total">
     <h1>total games played</h1><p>
-    <h2>0</h2>
+    <h2><%= Game.where(player_1_id: @player.id).length %></h2>
   </div>
 </div>
 
-<form action="/games" method="post" class="button">
+<form action="/games" method="post" value="submit">
   <input type="hidden" name="player_1_id" value="<%= @player.id %>">
-  <button value="submit">
+  <button class="button">
     <span>start new game</span>
   </button>
 </form>
+

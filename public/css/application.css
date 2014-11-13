@@ -57,19 +57,16 @@ body {
   display: inline-block;
   position: absolute;
   font-size: 20px;
+  border: none;
+  background-color: white;
   color: black;
   font-weight: bold;
-}
-
-.button span {
-  display: inline-block;
   width: 700px;
   padding: 10px;
-  background-color: white;
   text-align: center;
 }
 
-.button:hover span {
+.button:hover {
   background-color: cyan;
   color: white;
   font-weight: bold;

@@ -6,7 +6,8 @@ end
 
 # Creating game under username
 get '/games/:game_id' do
-  @player = Player.find_by(id: session[:player_id])
+  @player_1 = Player.find_by(id: session[:player_id])
+  #@player_2 =
   erb :'/games/create'
 end
 
